@@ -1,0 +1,21 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.table th, .table td {
+    padding: 8px;
+}
+
+.table tr {
+    margin-bottom: 10px;
+}
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #43967B;
+    color: white;
+}
