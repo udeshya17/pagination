@@ -8,7 +8,9 @@ export const FetchApi = async()=>{
         let response  = await axios.get(URL);
         console.log(response);
         return response.data;
-    } catch(error){
-        console.error("failed to fetch data",error);
+    } 
+    catch(error){
+        console.error('Error fetching data: ',error);
+        return [];
     }
 }

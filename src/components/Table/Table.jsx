@@ -37,12 +37,14 @@ function Table(){
                         <th>Role</th>
                     </tr>
                     {currentItems.map((item, index)=>(
-                        <tr>
-                            <td>{item.id}</td>
-                            <td >{item.name}</td>
-                            <td>{item.email}</td>
-                            <td>{item.role}</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>{item.id}</td>
+                                <td >{item.name}</td>
+                                <td>{item.email}</td>
+                                <td>{item.role}</td>
+                            </tr>
+                        </tbody>
                     ))}
                 </table>
             </div>
